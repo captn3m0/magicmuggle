@@ -28,7 +28,11 @@ for i, book in config
 
     File.open("#{i}.html", 'w') { |file| file.write(html) }
     puts "[html] Generated HTML file for #{i}"
-    `pandoc -S -o #{i}.epub --epub-metadata=#{i}.xml #{i}.html`
+    if File.exists? "#{i}.png"
+      `pandoc -S -o #{i}.epub --epub-metadata=#{i}.xml --epub-cover-image=#{i}.png #{i}.html`
+    else
+      `pandoc -S -o #{i}.epub --epub-metadata=#{i}.xml #{i}.html`
+    end
     puts "[epub] Generated EPUB file for #{i}"
     `ebook-convert #{i}.epub #{i}.mobi`
     puts "[mobi] Generated MOBI file for #{i}"
