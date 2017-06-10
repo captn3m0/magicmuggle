@@ -1,6 +1,3 @@
----
-layout: cayman
----
 # Magic Muggle
 
 Script to generate EPUB/MOBI/PDF files for Magic Muggle fanfic.
