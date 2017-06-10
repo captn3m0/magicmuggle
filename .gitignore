@@ -4,3 +4,5 @@ book3/
 *.html
 *.epub
 *.mobi
+docs/.sass-cache
+docs/_site

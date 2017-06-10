@@ -1,0 +1,16 @@
+# Site settings
+title: Magic Muggle
+description: > # this means to ignore newlines until "baseurl:"
+  EPUB/MOBI versions of the Magic Muggle fanfic.
+baseurl: "/magicmuggle" # the subpath of your site, e.g. /blog
+url: "https://captnemo.in" # the base hostname & protocol for your site
+twitter_username: captn3m0
+github_username:  captn3m0
+theme: jekyll-theme-cayman
+# Build settings
+markdown: kramdown
+show_downloads: true
+release: 
+  tag: 3.18
+  book: 3
+  chapter: 18
