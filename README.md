@@ -17,3 +17,7 @@ All the code is released under MIT License. The book is copyright /u/Doomchicken
 [artist]: http://www.nicksymeou.com/
 [posters]: https://www.behance.net/gallery/1837029/Harry-Potter-Minimalist-Posters
 
+
+## Extra
+
+A list of my other EBook generation projects: https://captnemo.in/ebooks/, includes a link to other related projects as well
